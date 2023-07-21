@@ -6,23 +6,9 @@
 }
 
 body {
+    max-width: 1240px;
+    margin: auto;
     background-color: white;
     color: white;
     font-family: sans-serif;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 1em;
-}
-
-.linkNav {
-    display: flex;
-    column-gap: 3em;
-}
-
-.linkNav li {
-    color: #ff6060;
 }

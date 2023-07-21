@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.linkNav {
+    display: flex;
+    column-gap: 3em;
+}
+
+.linkNavA {
+    color: #ff6060;
+    font-size: 24px;
+    &:hover {
+        text-decoration: underline;
+    }
+}
