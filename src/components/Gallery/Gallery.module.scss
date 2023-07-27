@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-top: 56px;
+}
+
+.containerCard {
+        position: relative;
+        max-width: 1240px;
+        height: auto;
+        margin-top: 6em;
+        border-radius: 25px;
+        background-color: rgba(246, 246, 246, 1);
+}

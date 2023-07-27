@@ -1,6 +1,10 @@
+import Accomodation from "./Accomodation/Accomodation";
+
 function Logement () {
     return (
-        <h1>Logement :</h1>
+        <div>
+            <Accomodation />
+        </div>
     )
 }
 

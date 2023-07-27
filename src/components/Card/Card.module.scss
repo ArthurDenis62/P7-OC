@@ -1,0 +1,30 @@
+.containerCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-top: 56px;
+}
+
+.Card {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.linkCard {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    margin-bottom: 3em;
+}
+
+.titleCard {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}

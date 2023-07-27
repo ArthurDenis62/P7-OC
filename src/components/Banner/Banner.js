@@ -1,5 +1,4 @@
-import styles from './Banner.module.scss'
-import '../../font/font.module.scss'
+import styles from './Banner.module.scss';
 
 const Banner = ({image, altText, textContent}) => {
     return (
