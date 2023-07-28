@@ -4,7 +4,7 @@ import './my-sass.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './containers/Layout/Layout';
 import Home from './pages/Home';
-import About from './pages/About';
+import About from './pages/About/About';
 import Error from './pages/Error';
 import Accomodation from './pages/Accomodation/Accomodation';
 
