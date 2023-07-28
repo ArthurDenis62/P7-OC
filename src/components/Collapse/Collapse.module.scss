@@ -4,7 +4,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin: 0 auto;
-    &_title{
+    .title{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -13,23 +13,25 @@
         color: #fff;
         border-radius: 10px;
         font-weight: 500;
-        font-size: clamp(13px, 2vw, 18px);
+        font-size: 18px;
         padding: 10px 15px;
         cursor: pointer;
-        .arrow{
+        .arrow_up{
             transition: all 0.2s ease-in-out;
             @media screen and (max-width: 1230px){
                 width: 12px;     
             }
-        }
-        .arrow_up{
             transform: rotate(0deg);
         }
         .arrow_down{
+            transition: all 0.2s ease-in-out;
+            @media screen and (max-width: 1230px){
+                width: 12px;     
+            }
             transform: rotate(180deg);
         }
     }
-    &_content{
+    .content{
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -37,15 +39,15 @@
         visibility: visible;
         opacity: 1;
         height: auto;
-        padding: 10px;
-        letter-spacing: 1px;
-        font-size: clamp(12px, 2vw, 16px);
+        padding: 25px 15px 25px 15px;
+        font-size: 18px;
+        font-weight: 400;
         color: #FF6060;
         transition: visibility 0.5s ease-in-out,
                     opacity 0.5s ease-in-out,
                     height 0.2s ease-in-out;
     }
-    &_content_hidden{
+    .content_hidden{
         visibility: hidden;
         opacity: 0;
         height: 0;

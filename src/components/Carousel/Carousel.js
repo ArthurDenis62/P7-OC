@@ -1,6 +1,6 @@
-import './Carousel.module.scss';
-import ArrowRight from '../../img/arrow_right.png';
-import ArrowLeft from '../../img/arrow_left.png';
+import styles from './Carousel.module.scss';
+import ArrowRight from '../../img/arrow_right.svg';
+import ArrowLeft from '../../img/arrow_left.svg';
 import { useState } from 'react';
 
 function Slider({imgSlider}) {
@@ -17,12 +17,12 @@ function Slider({imgSlider}) {
     }
 
     return (
-        <section style={{backgroundImage: `url(${imgSlider[actuelleIndex]})`}} className='carousel'>
+        <section style={{backgroundImage: `url(${imgSlider[actuelleIndex]})`}} className={styles.carousel}>
             {imgSlider.length > 1 && 
                 <>
-                    <img className='carousel_arrow carousel_arrow_right' src={ArrowRight} alt="show next slider" onClick={nextSlide} />
-                    <img className='carousel_arrow carousel_arrow_left' src={ArrowLeft} alt="show previous slider" onClick={prevSlide} />
-                    <p className='slideCount'>{actuelleIndex + 1} / {imgSlider.length}</p>
+                    <img className={styles.arrowRight} src={ArrowRight} alt="show next slider" onClick={nextSlide} />
+                    <img className={styles.arrowLeft} src={ArrowLeft} alt="show previous slider" onClick={prevSlide} />
+                    <p className={styles.slideCount}>{actuelleIndex + 1} / {imgSlider.length}</p>
                 </>
             }
         </section>

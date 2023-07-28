@@ -3,7 +3,7 @@ import Accomodation from "./Accomodation/Accomodation";
 function Logement () {
     return (
         <div>
-            <Accomodation />
+            <p>Toto</p>
         </div>
     )
 }
