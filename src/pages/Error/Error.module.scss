@@ -1,0 +1,22 @@
+.error {
+    margin-top: 5em;
+    text-align: center;
+    color: #FF6060;
+    h1 {
+        font-size: 288px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 36px;
+        margin-top: 1em;
+        margin-bottom: 6em;
+    }
+    a {
+        font-size: 18px;
+        color: #FF6060;
+        text-decoration: underline;
+    }
+    p, a {
+        font-weight: 500;
+    }
+}

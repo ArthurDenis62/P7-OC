@@ -1,6 +1,6 @@
 import { Outlet, Link } from 'react-router-dom';
-import logoKasa from '../../img/logoKasa.svg'
-import styles from './Layout.module.scss'
+import logoKasa from '../../img/logoKasa.svg';
+import styles from './Layout.module.scss';
 
 const Layout = () => {
     return (
@@ -14,7 +14,6 @@ const Layout = () => {
                     <li><Link to="/About" className={styles.linkNavA}>A propos</Link></li>
                 </ul>
             </nav>
-
             <Outlet />
         </>
     )
