@@ -6,6 +6,7 @@ import Layout from './containers/Layout/Layout';
 import Home from './pages/Home';
 import About from './pages/About/About';
 import Error from './pages/Error/Error';
+import Footer from './containers/Footer/Footer'
 import Accomodation from './pages/Accomodation/Accomodation';
 
 export default function App () {
@@ -19,6 +20,7 @@ export default function App () {
                     <Route path="*" element={<Error />} />
                 </Route>
             </Routes>
+            <Footer />
         </BrowserRouter>
     )
 }

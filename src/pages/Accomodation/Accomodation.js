@@ -55,7 +55,6 @@ function Accommodation() {
 						<Collapse title={'Équipements'} content={equipments}/>
 					</div>	
 				</div>
-				<Footer />
 			</main>
 		</>
 	)

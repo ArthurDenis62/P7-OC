@@ -5,6 +5,7 @@ import styles from './Layout.module.scss';
 const Layout = () => {
     return (
         <>
+        <div className='container'>
             <nav className={styles.navbar}>
                 <ul>
                     <li><img src={logoKasa} alt="Logo Kasa" /></li>
@@ -15,6 +16,7 @@ const Layout = () => {
                 </ul>
             </nav>
             <Outlet />
+            </div>
         </>
     )
 }

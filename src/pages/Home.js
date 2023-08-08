@@ -7,9 +7,10 @@ import '../font/font.module.scss';
 const Home = () => {
     return (
         <div>
-            <Banner image={HomeBanner} altText={`Banner Accueil`} textContent={'Chez vous, partout et ailleurs'} />
-            <Gallery />
-            <Footer />
+                <Banner image={HomeBanner} altText={`Banner Accueil`} textContent={'Chez vous, partout et ailleurs'} />
+                <div className="container">
+                <Gallery />
+            </div>
         </div>
     )
 }

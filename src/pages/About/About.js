@@ -29,7 +29,6 @@ function About () {
                         <Collapse title={'Sécurité'} content={securite}/>
                     </div>	
                 </div>
-                <Footer />
             </main>
         </>
     )
