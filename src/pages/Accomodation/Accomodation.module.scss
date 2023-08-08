@@ -18,7 +18,7 @@
             p {
                 font-size: 18px;
                 font-weight: 500;
-                margin-top: 5px;
+                margin-top: 10px;
             }
         }
     }
@@ -70,8 +70,30 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    column-gap: 1em;
     margin-top: 1em;
     .items {
         width: 582px;
+    }
+}
+
+@media (max-width: 850px) {
+    .accomodation {
+        .content {
+            flex-direction: column;
+        }
+    }
+    .hote {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+    .collapse {
+        flex-direction: column;
+        .items {
+            width: 100%;
+            margin-bottom: 1.5em;
+        }
     }
 }

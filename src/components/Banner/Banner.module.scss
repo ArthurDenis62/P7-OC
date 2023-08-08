@@ -34,3 +34,9 @@
     font-weight: 500;
     font-family: 'MontSerrat';
 }
+
+@media (max-width: 850px) {
+    .title {
+        margin-left: 1em;
+    }
+}

@@ -12,3 +12,9 @@ body {
     color: white;
     font-family: sans-serif;
 }
+
+@media (max-width: 1275px) {
+    body {
+        margin: auto 1em auto 1em;
+    }
+}

@@ -1,8 +1,9 @@
 import styles from './Accomodation.module.scss';
 import { useParams } from 'react-router-dom';
 import datas from '../../data/data';
-import Slider from '../../components/Carousel/Carousel'
-import Collapse from '../../components/Collapse/Collapse'
+import Slider from '../../components/Carousel/Carousel';
+import Collapse from '../../components/Collapse/Collapse';
+import Footer from '../../containers/Footer/Footer';
 import greyStar from '../../img/grey_stars.svg';
 import redStar from '../../img/red_stars.svg';
 
@@ -31,7 +32,7 @@ function Accommodation() {
 							})}
 						</div>
 					</div>
-					<div>
+					<div className={styles.hote}>
 						<div className={styles.profileHote}>
 							<img className={styles.picture} src={dataCurrentAccomodation.host.picture} alt="hôte de ce logement" />
 							<span className={styles.name}>{dataCurrentAccomodation.host.name}</span>
@@ -54,6 +55,7 @@ function Accommodation() {
 						<Collapse title={'Équipements'} content={equipments}/>
 					</div>	
 				</div>
+				<Footer />
 			</main>
 		</>
 	)

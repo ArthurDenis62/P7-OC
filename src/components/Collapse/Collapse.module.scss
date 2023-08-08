@@ -13,7 +13,7 @@
         color: #fff;
         border-radius: 10px;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 24px;
         padding: 10px 15px;
         cursor: pointer;
         .arrow_up{
@@ -40,7 +40,7 @@
         opacity: 1;
         height: auto;
         padding: 25px 15px 25px 15px;
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 400;
         color: #FF6060;
         transition: visibility 0.5s ease-in-out,
@@ -51,5 +51,16 @@
         visibility: hidden;
         opacity: 0;
         height: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .collapse {
+        .title {
+            font-size: 13px;
+        }
+        .content {
+            font-size: 12px;
+        }
     }
 }
