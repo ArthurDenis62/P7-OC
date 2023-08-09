@@ -3,19 +3,16 @@ import { useParams } from 'react-router-dom';
 import datas from '../../data/data';
 import Slider from '../../components/Carousel/Carousel';
 import Collapse from '../../components/Collapse/Collapse';
-import Footer from '../../containers/Footer/Footer';
 import greyStar from '../../img/grey_stars.svg';
 import redStar from '../../img/red_stars.svg';
 
 function Accommodation() {
 	let {id} = useParams();
 	const dataCurrentAccomodation = datas.find(data => data.id === id);
-
 	const name = dataCurrentAccomodation.title; 
 	const rating = dataCurrentAccomodation.rating;
 	const description  = dataCurrentAccomodation.description;
 	const equipments = dataCurrentAccomodation.equipments;
-
 	return (
 		<>
 			<Slider imgSlider={dataCurrentAccomodation.pictures}/>
