@@ -4,7 +4,6 @@ import styles from './Layout.module.scss';
 
 const Layout = () => {
     return (
-        <>
         <div className='container'>
             <nav className={styles.navbar}>
                 <ul>
@@ -16,8 +15,7 @@ const Layout = () => {
                 </ul>
             </nav>
             <Outlet />
-            </div>
-        </>
+        </div>
     )
 }
 
