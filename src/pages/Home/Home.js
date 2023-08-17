@@ -1,7 +1,7 @@
-import Banner from "../components/Banner/Banner";
-import Gallery from "../components/Gallery/Gallery";
-import HomeBanner from "../img/bgAccueil.svg";
-import '../font/font.module.scss';
+import Banner from "../../components/Banner/Banner";
+import Gallery from "../../components/Gallery/Gallery";
+import HomeBanner from "../../img/bgAccueil.svg";
+import '../../font/font.module.scss';
 
 const Home = () => {
     return (

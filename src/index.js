@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './my-sass.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './containers/Layout/Layout';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Error from './pages/Error/Error';
 import Footer from './containers/Footer/Footer'
