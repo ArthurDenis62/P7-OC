@@ -1,6 +1,5 @@
 import Banner from "../../components/Banner/Banner";
 import Collapse from '../../components/Collapse/Collapse';
-import Footer from '../../containers/Footer/Footer';
 import styles from './About.module.scss';
 import AboutBanner from "../../img/bgApropos.svg";
 
